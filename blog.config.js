@@ -150,7 +150,7 @@ const BLOG = {
   POSTS_PER_PAGE: 12, // post counts per page
   POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
-  ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || MFE6T5P0GP, // 在这里查看 https://dashboard.algolia.com/account/api-keys/
+    ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || MFE6T5P0GP, // 在这里查看 https://dashboard.algolia.com/account/api-keys/
   ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || 320ceda9d310fca074d9dedf5a083916, // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
   ALGOLIA_SEARCH_ONLY_APP_KEY: process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_ONLY_APP_KEY || a039a460c2a8348421c1c30f579d4c3f, // 客户端搜索用的KEY
   ALGOLIA_INDEX: process.env.NEXT_PUBLIC_ALGOLIA_INDEX || demo, // 在Algolia中创建一个index用作数据库
